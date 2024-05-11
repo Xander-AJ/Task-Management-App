@@ -44,41 +44,49 @@ This application is designed to streamline your workflow and boost productivity.
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/Task-Management-App.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd your-project-directory
    ```
-   
+
 3. Navigate to the server directory:
+
    ```bash
    cd server
    ```
-   
+
 4. Install dependencies using Yarn in the server directory:
+
    ```bash
    yarn install
    ```
-   
+
 5. Navigate to the client directory:
+
    ```bash
    cd client
    ```
-   
+
 6. Install dependencies using Yarn in the client directory:
+
    ```bash
    yarn install
    ```
-   
+
 7. Start the app using Yarn:
+
    ```bash
    yarn start
    ```
-   
+
 8. Start the server using Yarn:
+
    ```bash
    yarn start or yarn server
    ```
@@ -86,6 +94,7 @@ This application is designed to streamline your workflow and boost productivity.
 ## Usage
 
 1. Start the development server:
+
    ```bash
    yarn start
    ```
