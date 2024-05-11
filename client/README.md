@@ -1,6 +1,5 @@
 # Task-Management-App
 
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -22,11 +21,10 @@ This application is designed to streamline your workflow and boost productivity.
 
 ## Features
 
-Include functionalities such as 
-  - User login/signup
-  - Task creation
-  - Task assignment
-  - Task status tracking, etc
+- User login/signup
+- Task creation
+- Task assignment
+- Task status tracking, etc
 
 ## Technologies Used
 
@@ -97,6 +95,7 @@ Include functionalities such as
 ## Contributing
 
 If you'd like to contribute to this project, please follow these guidelines:
+
 - Fork the repository
 - Create a new branch (`git checkout -b feature-branch`)
 - Make your changes
@@ -106,15 +105,10 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 ## Credits
 
-This project was created by [John-AlexanderKamau](https://www.linkedin.com/in/john-alexander-kamau-301821a5/) 
+This project was created by [John-AlexanderKamau](https://www.linkedin.com/in/john-alexander-kamau-301821a5/)
 
 Special thanks to my brother [Amariah Kamau](https://www.linkedin.com/in/amariah-kamau-3156412a6/) for his invaluable contributions to this project. He provided support and assistance in research.
-
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-
