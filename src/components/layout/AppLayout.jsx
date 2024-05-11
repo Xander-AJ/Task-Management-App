@@ -8,42 +8,44 @@ import Loading from '../common/Loading'
 import Sidebar from '../common/Sidebar'
 
 const AppLayout = () => {
-  const navigate = useNavigate()
-  const dispatch = useDispatch()
-  const [loading, setLoading] = useState(true)
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const checkAuth = async () => {
-      const user = await authUtils.isAuthenticated()
+      const user = await authUtils.isAuthenticated();
       if (!user) {
-        navigate('/login')
+        navigate("/login");
       } else {
         // save user
-        dispatch(setUser(user))
-        setLoading(false)
+        dispatch(setUser(user));
+        setLoading(false);
       }
-    }
-    checkAuth()
-  }, [navigate])
+    };
+    checkAuth();
+  }, [navigate, dispatch]);
 
-  return (
-    loading ? (
-      <Loading fullHeight />
-    ) : (
-      <Box sx={{
-        display: 'flex'
-      }}>
-        <Sidebar />
-        <Box sx={{
+  return loading ? (
+    <Loading fullHeight />
+  ) : (
+    <Box
+      sx={{
+        display: "flex",
+      }}
+    >
+      <Sidebar />
+      <Box
+        sx={{
           flexGrow: 1,
           p: 1,
-          width: 'max-content'
-        }}>
-          <Outlet />
-        </Box>
+          width: "max-content",
+        }}
+      >
+        <Outlet />
       </Box>
-    )
-  )
-}
+    </Box>
+  );
+};
 
 export default AppLayout
